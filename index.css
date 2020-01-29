@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: monospace;
+}
+
+.main-container {
+    width: 50%;
+    background: #75b79e;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 2rem;
+    font-size: 5rem;
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    background-color: #6a8caf;
+    border-radius: 2px;
+}
+
+button img {
+    width: 1rem;
+    height: auto;
+}
