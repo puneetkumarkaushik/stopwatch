@@ -29,3 +29,59 @@ button img {
     width: 1rem;
     height: auto;
 }
+
+@media only screen and (max-width: 1730px) {
+    h1 {
+        margin: 1rem;
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    h1 {
+        margin: 1rem;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-container {
+        width: 100%;
+    }  
+    
+    h1 {
+        margin: 1rem;
+        font-size: 2rem;
+    }
+
+    button {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    button img {
+        width: 0.5rem;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .main-container {
+        width: 100%;
+    }  
+    
+    h1 {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    button {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    button img {
+        width: 0.5rem;
+        height: auto;
+    }
+}
